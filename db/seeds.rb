@@ -21,5 +21,8 @@ node_1 = Node.create(
   onMouseEnter: false,
   onMouseUP: false,
 
+)
 
+counter_1 = Counter.create(
+  visited: 0
 )
