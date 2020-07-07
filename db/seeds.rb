@@ -32,16 +32,16 @@ counter_1 = Counter.create(
 #Descriptions 
 
 desc_1 = Description.create(
-  algorithm_name: "Dijkstra's",
-  desc: "Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. It picks the unvisited node with the lowest distance, calculates the distance through it to each unvisited neighbor, and updates the neighbor's distance if smaller."
+  algorithm_name: "Dijkstra’s Algorithm",
+  desc: "Dijkstra’s algorithm finds the shortest path between two nodes on a graph. It has several real-world applications, including its implementation in Google Maps and Apple Maps. Beginning at the start node, the algorithm picks the unvisited node with the lowest distance (its neighbors), calculates the distance through that node to each of its unvisited neighbors, and so on, until the end node is reached. Unlike the bread-first search algorithm, Dijkstra’s algorithm can account for weighted nodes that require more ‘work’ to pass through (picture traffic spots on a map)."
 )
 desc_2 = Description.create(
-  algorithm_name: "Depth First",
-  desc: "Depth First algorithm is an algorithm that uses a stack data structure to determine a route from start to end nodes. The algorithm starts at the root (top) node of a tree and goes as far as it can down a given branch (path), then backtracks until it finds an unexplored path, and then explores it. The main strategy of depth-first search is to explore deeper into the graph whenever possible."
+  algorithm_name: "Depth-First Search Algorithm",
+  desc: "The depth-first search algorithm is typically used to traverse graph or tree data structures. The algorithm begins at the start node and explores along each branch as far as possible before backtracking and exploring a new branch. In this visualizer, a ‘branch’ represents a single direction that can be taken from the start node."
 )
 desc_3 = Description.create(
-  algorithm_name: "Breadth First",
-  desc: "Breadth First algorithm is an algorithm that uses a queue data structure. It starts at the tree root, and explores all of the neighbour nodes before moving deeper at the next depth level. The main strategy of depth-first search is to explore neighbouring nodes before moving deeper in the path."
+  algorithm_name: "Breadth-First Search Algorithm",
+  desc: "The breadth-first search algorithm is typically used to traverse graph or tree data structures. The algorithm begins at the start node and explores all of its neighbors at the present depth level (its direct neighbors) before moving on to the nodes at the next depth level. Visually, the algorithm functions similarly to Dijkstra’s algorithm, but cannot account for weighted nodes."
 )
 
 #Maps
