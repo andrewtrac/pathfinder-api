@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_07_000535) do
+ActiveRecord::Schema.define(version: 2020_07_07_142531) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -40,6 +40,14 @@ ActiveRecord::Schema.define(version: 2020_07_07_000535) do
     t.boolean "mousedown"
     t.boolean "onMouseEnter"
     t.boolean "onMouseUP"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "walled_nodes", force: :cascade do |t|
+    t.string "name"
+    t.integer "row"
+    t.integer "col"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

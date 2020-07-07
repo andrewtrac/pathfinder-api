@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :walled_nodes, param: :name
   resources :descriptions
   resources :counters
   resources :nodes

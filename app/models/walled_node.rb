@@ -1,0 +1,2 @@
+class WalledNode < ApplicationRecord
+end
