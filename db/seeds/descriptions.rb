@@ -10,3 +10,7 @@ desc_3 = Description.create(
   algorithm_name: "Breadth-First Search Algorithm",
   desc: "The breadth-first search algorithm is typically used to traverse graph or tree data structures. The algorithm begins at the start node and explores all of its neighbors at the present depth level (its direct neighbors) before moving on to the nodes at the next depth level. Visually, the algorithm functions similarly to Dijkstra’s algorithm, but cannot account for weighted nodes."
 )
+desc_4 = Description.create(
+  algorithm_name: "A* Algorithm",
+  desc: "A* is a modification of Dijkstra’s Algorithm that is optimized for a single destination. Dijkstra’s Algorithm can find paths to all locations; A* finds paths to one location, or the closest of several locations. It prioritizes paths that seem to be leading closer to a goal."
+)
