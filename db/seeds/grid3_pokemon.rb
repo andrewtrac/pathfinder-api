@@ -36,7 +36,7 @@ pokemon_row5 = Row.create(
 pokemon_row6 = Row.create(
   saved_grid_id: 3,
   row_num: 6,
-  cols: [2, 4, 6, 9. 10, 11, 19, 22, 28, 30, 31, 32]
+  cols: [2, 4, 6, 9, 10, 11, 19, 22, 28, 30, 31, 32]
 )
 pokemon_row7 = Row.create(
   saved_grid_id: 3,
@@ -61,7 +61,7 @@ pokemon_row10 = Row.create(
 pokemon_row11 = Row.create(
   saved_grid_id: 3,
   row_num: 11,
-  cols: [1, 2, 3, 4, 5, 6, 9,1 0, 20, 21, 28, 30]
+  cols: [1, 2, 3, 4, 5, 6, 9, 10, 20, 21, 28, 30]
 )
 pokemon_row12 = Row.create(
   saved_grid_id: 3,
