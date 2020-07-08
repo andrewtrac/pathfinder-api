@@ -24,9 +24,14 @@
 #add_foreign_key "saved_grids", "rows", column: "rows_id"
 #end
 
+grid_test1 = SavedGrid.create(
+  name: "aliens"
+)
 
+#Row.create(saved_grid_id: 1, row_num: 1, cols: [1,2,3])
 
 row_test1 = Row.create(
+  saved_grid_id: 1,
   row_num: 1,
   cols: [1,2,3]
 )
