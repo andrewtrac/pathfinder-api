@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_07_142531) do
+ActiveRecord::Schema.define(version: 2020_07_08_170658) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,6 +44,21 @@ ActiveRecord::Schema.define(version: 2020_07_07_142531) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "rows", force: :cascade do |t|
+    t.bigint "saved_grid_id", null: false
+    t.integer "row_num"
+    t.integer "cols", array: true
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["saved_grid_id"], name: "index_rows_on_saved_grid_id"
+  end
+
+  create_table "saved_grids", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "walled_nodes", force: :cascade do |t|
     t.string "name"
     t.integer "row"
@@ -52,4 +67,5 @@ ActiveRecord::Schema.define(version: 2020_07_07_142531) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "rows", "saved_grids"
 end
