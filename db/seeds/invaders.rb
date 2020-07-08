@@ -305,6 +305,11 @@ invaders_row57 = WalledNode.create(
 invaders_row58 = WalledNode.create(
   name: "invaders",
   row: 5,
+  col: 5,
+)
+invaders_row58 = WalledNode.create(
+  name: "invaders",
+  row: 5,
   col: 6,
 )
 invaders_row59 = WalledNode.create(
