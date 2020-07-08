@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :saved_grids, param: :name
+  resources :rows
   resources :walled_nodes, param: :name
   resources :descriptions
   resources :counters
