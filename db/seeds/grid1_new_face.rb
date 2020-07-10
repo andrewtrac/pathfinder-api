@@ -7,33 +7,28 @@ face_grid = SavedGrid.create(
 
 face_row = Row.create(
   saved_grid_id: 1,   #make sure this grid id is associated with the one above
-  row_num: 0,
+  row_num: 1,
   cols: [18, 19, 20, 21, 22, 23, 24, 25, 26]
 )
-face_row1 = Row.create(
+face_row2 = Row.create(
   saved_grid_id: 1,
-  row_num: 1,
+  row_num: 2,
   cols: [17, 27]
 )
-face_row2 = Row.create(
+face_row3 = Row.create(
   saved_grid_id: 1,   #make sure this grid id is associated with the one above
-  row_num: 2,
+  row_num: 3,
   cols: [16, 28]
 )
-face_row3 = Row.create(
-  saved_grid_id: 1,
-  row_num: 3,
-  cols: [15, 29]
-)
 face_row4 = Row.create(
-  saved_grid_id: 1,   #make sure this grid id is associated with the one above
+  saved_grid_id: 1,
   row_num: 4,
-  cols: [14, 20, 24, 30]
+  cols: [15, 29]
 )
 face_row5 = Row.create(
   saved_grid_id: 1,
   row_num: 5,
-  cols: [14, 30]
+  cols: [14, 20, 24 30]
 )
 face_row6 = Row.create(
   saved_grid_id: 1,   #make sure this grid id is associated with the one above
