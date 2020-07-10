@@ -14,3 +14,7 @@ desc_4 = Description.create(
   algorithm_name: "A* Algorithm",
   desc: "A* is a modification of Dijkstra’s Algorithm that is optimized for a single destination. Dijkstra’s Algorithm can find paths to all locations; A* finds paths to one location, or the closest of several locations. It prioritizes paths that seem to be leading closer to a goal."
 )
+desc_5 = Description.create(
+  algorithm_name: "Greedy Best-First Search Algorithm",
+  desc: "The greedy best-first search algorithm quickly finds a path to its destination by prioritizing the search of neighboring nodes closest to the end node. Although quick, it often does not always find the optimal path."
+)
