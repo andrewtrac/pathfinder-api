@@ -28,7 +28,7 @@ face_row4 = Row.create(
 face_row5 = Row.create(
   saved_grid_id: 1,
   row_num: 5,
-  cols: [14, 20, 24 30]
+  cols: [14, 20, 24, 30]
 )
 face_row6 = Row.create(
   saved_grid_id: 1,   #make sure this grid id is associated with the one above
