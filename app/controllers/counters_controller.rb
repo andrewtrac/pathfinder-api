@@ -9,15 +9,10 @@ class CountersController < ApplicationController
     render json: counter_index
   end
 
-  def create
+  def put
     counter_update = Counter.find params[:id]
     counter_update.visited += 1
     counter_update.save
-    counter_new = ActiveModelSerializers::Adapter::Json.new(
-      WsCounterSerializer.new(counter_index)
-      ).serializable_hash
-      ActionCable.server.broadcast 'ws_counter_channel', counter_new
-      head :ok
   end
 
   end

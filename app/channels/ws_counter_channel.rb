@@ -1,7 +1,6 @@
 class WsCounterChannel < ApplicationCable::Channel
   def subscribed
-    counter_index = Counter.find params[:id]
-    stream_for counter_index
+    stream_from 'ws_counter_channel'
   end
 
   def unsubscribed
