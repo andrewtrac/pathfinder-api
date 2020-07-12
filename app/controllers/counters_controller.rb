@@ -18,5 +18,6 @@ class CountersController < ApplicationController
       ).serializable_hash
       ActionCable.server.broadcast 'ws_counter', counter_new
       head :ok
+  end
 
   end
