@@ -43,7 +43,7 @@ invaders_row9 = Row.create(
 invaders_row10 = Row.create(
   saved_grid_id: 2,   #make sure this grid id is associated with the one above
   row_num: 10,
-  cols: [2, 4, 10, 12, 17, 19, 25, 27, 33, 34, 40, 42]
+  cols: [2, 4, 10, 12, 17, 19, 25, 27, 32, 34, 40, 42]
 )
 invaders_row11 = Row.create(
   saved_grid_id: 2,   #make sure this grid id is associated with the one above
