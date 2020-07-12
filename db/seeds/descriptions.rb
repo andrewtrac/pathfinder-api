@@ -1,6 +1,6 @@
 desc_1 = Description.create(
   algorithm_name: "Dijkstra’s Algorithm",
-  desc: "Dijsktra's algorithm is a path search algorithm that guarantees the shortest path. Beginning at the start node, the algorithm picks the unvisited node with the lowest distance (its neighbors), calculates the distance through that node to each of its unvisited neighbors, and so on, until the end node is reached. Dijkstra’s algorithm is weighted, meaning it can account for weighted nodes that require more ‘work’ to pass through (like traffic spots on a map)."
+  desc: "Dijkstra's algorithm is a path search algorithm that guarantees the shortest path. Beginning at the start node, the algorithm picks the unvisited node with the lowest distance (its neighbors), calculates the distance through that node to each of its unvisited neighbors, and so on, until the end node is reached. Dijkstra’s algorithm is weighted, meaning it can account for weighted nodes that require more ‘work’ to pass through (like traffic spots on a map)."
 )
 desc_2 = Description.create(
   algorithm_name: "Depth-First Search Algorithm",
@@ -11,7 +11,7 @@ desc_3 = Description.create(
   desc: "Breadth-first search is a graph traversal algorithm. It guarantees the shortest path when used as a path search algorithm. It begins at the start node and explores all of its neighbors at the present depth level (its direct neighbors) before moving on to the nodes at the next depth level. Visually, the algorithm functions similarly to Dijkstra’s algorithm, but is unweighted (cannot account for weighted nodes)."
 )
 desc_4 = Description.create(
-  algorithm_name: "A* Algorithm",
+  algorithm_name: "A* Search Algorithm",
   desc: "A* is a weighted path search algorithm that guarantees the shortest path. It is also used as a graph traversal algorithm. It is an informed search algorithm, meaning it knows where the end node is located. It aims to find a path to the end node with the smallest ‘cost’ (distance travelled, shortest time, etc.). It does this by maintaining a ‘tree’ of paths directed towards the end node, and extending those paths one at a time until a termination criterion is met (for example, a node cannot explore any more unvisited nodes, or the end node has been reached)."
 )
 desc_5 = Description.create(
