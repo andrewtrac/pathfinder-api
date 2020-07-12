@@ -38,7 +38,7 @@ invaders_row8 = Row.create(
 invaders_row9 = Row.create(
   saved_grid_id: 2,
   row_num: 9,
-  cols: [2, 4, 5, 6, 7, 8, 9, 10, 12, 17, 19, 20 21, 22, 23, 24, 25, 27, 32, 34, 35, 36, 37, 38, 39, 40, 42]
+  cols: [2, 4, 5, 6, 7, 8, 9, 10, 12, 17, 19, 20, 21, 22, 23, 24, 25, 27, 32, 34, 35, 36, 37, 38, 39, 40, 42]
 )
 invaders_row10 = Row.create(
   saved_grid_id: 2,   #make sure this grid id is associated with the one above
