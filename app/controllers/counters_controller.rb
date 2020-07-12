@@ -16,7 +16,7 @@ class CountersController < ApplicationController
     counter_new = ActiveModelSerializers::Adapter::Json.new(
       WsCounterSerializer.new(counter_index)
       ).serializable_hash
-      ActionCable.server.broadcast 'ws_counter', counter_new
+      ActionCable.server.broadcast 'ws_counter_channel', counter_new
       head :ok
   end
 
