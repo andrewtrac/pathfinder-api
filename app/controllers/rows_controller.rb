@@ -4,3 +4,4 @@ class RowsController < ApplicationController
     render json: row 
   end 
 end
+
