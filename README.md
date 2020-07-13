@@ -21,7 +21,7 @@ Requires PostgreSQL installation.
 
 ## Routes
 
-GET - /counters
+GET - /counters  
 GET - /counters/:id (to access a single counter)  
 PUT - /counters/:id (to update counter)
 
