@@ -8,7 +8,7 @@ Ruby on Rails (version 6.0.3.1), PostgreSQL (12.3)
 ## Final Product
 
 [See here for root API website](https://evening-citadel-63039.herokuapp.com/)  
-[See here for app website, Pathfinder](https://react-pathfinder.herokuapp.com/)
+[See here for app website - Pathfinder](https://react-pathfinder.herokuapp.com/)
 
 ## Getting Started
   
