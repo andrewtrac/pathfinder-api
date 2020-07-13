@@ -7,7 +7,7 @@ Ruby on Rails (version 6.0.3.1), PostgreSQL (12.3)
 
 ## Final Product
 
-[See here for root API website](https://evening-citadel-63039.herokuapp.com/)
+[See here for root API website](https://evening-citadel-63039.herokuapp.com/)  
 [See here for app website, Pathfinder](https://react-pathfinder.herokuapp.com/)
 
 ## Getting Started
@@ -17,18 +17,18 @@ Ruby on Rails (version 6.0.3.1), PostgreSQL (12.3)
 2. Install dependencies using the `bundle install` command.
 3. Start the web server using the `rails server` command. The app will be served at <http://localhost:5000/>.  
   
-Requires PostgreSQL installation
+Requires PostgreSQL installation.
 
 ## Routes
 
 GET - /counters
-GET - /counters/:id (to access a single counter)
+GET - /counters/:id (to access a single counter)  
 PUT - /counters/:id (to update counter)
 
-GET - /saved_grids (index of all saved maps for Pathfinder)
+GET - /saved_grids (index of all saved maps for Pathfinder)  
 GET - /saved_grids/:name (get a specific map by passing a :name params, eg. /saved_grids/face)
 
-GET - /descriptions (index of all algorithm descriptions for Pathfinder)
+GET - /descriptions (index of all algorithm descriptions for Pathfinder)  
 GET - /descriptions/:id (get a specific description)
 
 ## Additional Gems
