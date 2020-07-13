@@ -1,3 +1,3 @@
 counter_1 = Counter.create(
-  visited: 0
+  visited: 2000
 )

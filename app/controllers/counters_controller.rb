@@ -15,4 +15,4 @@ class CountersController < ApplicationController
     counter_update.save
   end
 
-  end
+end
